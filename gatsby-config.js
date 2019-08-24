@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   siteMetadata: {
     title: "Tyler Edge | Web Portfolio",
@@ -5,6 +7,15 @@ module.exports = {
     description: "Template powered portfolio for Tyler Edge"
   },
   plugins: [
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: path.join(__dirname, `src`, `images`),
+      },
+    },
+
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -20,6 +31,7 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    'gatsby-plugin-sharp'
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
 }
