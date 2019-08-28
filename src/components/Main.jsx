@@ -151,13 +151,14 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a href="https://docs.google.com/document/d/11_OQHxzBu_dA8fwsj9u3ArT3i8vHnOdWgEry89BZ6sE/edit?usp=sharing" className="icon fa-file">
+              <a href="https://docs.google.com/document/d/11_OQHxzBu_dA8fwsj9u3ArT3i8vHnOdWgEry89BZ6sE/edit?usp=sharing" target="blank" className="icon fa-file">
                 <span className="label">Resume</span>
               </a>
             </li>
             <li>
               <a
                 href="https://www.linkedin.com/in/tylercedge/"
+                target="blank"
                 className="icon fa-linkedin-square"
               >
                 <span className="label">LinkedIn</span>
@@ -166,6 +167,7 @@ class Main extends React.Component {
             <li>
               <a
                 href="https://stackoverflow.com/users/10860189/tyler-edge"
+                target="blank"
                 className="icon fa-stack-overflow"
               >
                 <span className="label">Stack Overflow</span>
@@ -174,6 +176,7 @@ class Main extends React.Component {
             <li>
               <a
                 href="https://github.com/TylerCEdge"
+                target="blank"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
