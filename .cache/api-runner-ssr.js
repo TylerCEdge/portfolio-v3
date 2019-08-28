@@ -7,9 +7,6 @@ var plugins = [{
     },{
       plugin: require('C:/Users/tyler/repo/portfolio-v3/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
-    },{
-      plugin: require('C:/Users/tyler/repo/portfolio-v3/node_modules/gatsby-remark-images/gatsby-ssr'),
-      options: {"plugins":[],"maxWidth":750,"linkImagesToOriginal":false},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
