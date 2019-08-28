@@ -43,7 +43,7 @@ class Main extends React.Component {
               <Image src={communication} />
               <Box px={2}>
                 
-                <Text fontSize={0}>
+                <Text fontSize={1}>
                   <p>
                     I have a strong passion for tech. I have played around with
                     computers since I was old enough to walk. I am into coding,
@@ -115,7 +115,7 @@ class Main extends React.Component {
               />
               <Box px={2}>
                 <Heading as="h3">Tyler Christopher Edge</Heading>
-                <Text fontSize={0}>
+                <Text fontSize={1}>
                   <p>Location: Lake Wylie, SC</p>
                   <p>
                     Hey, everyone, my name is Tyler Christopher Edge. I was born
