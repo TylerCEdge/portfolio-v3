@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Box, Card, Image, Heading, Text } from 'rebass'
+import Projects from '../components/Projects'
 
 import tyler from '../images/tylernew.jpg'
-import apex from '../images/apextracker.png'
 import communication from '../images/communication.jpg'
 
 class Main extends React.Component {
@@ -64,21 +63,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
-          <Box width={750}>
-            <Card
-              sx={{
-                p: 1,
-                borderRadius: 2,
-                boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
-              }}
-            >
-              <Image src={apex} />
-              <Box px={2}>
-                <Heading as="h3">Apex Legends Tracker</Heading>
-                <Text fontSize={0}>You can edit this code</Text>
-              </Box>
-            </Card>
-          </Box>
+          <Projects />
 
           {close}
         </article>

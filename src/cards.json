@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"name" : "Pokemon Memory Game",
+		"image": "clickygame.png",
+		"url": "https://pokemon-memory-app.herokuapp.com/",
+		"summary": "Pokemon Memory Game is a Heroku hosted memory game. It utilizes React.js to render the page. Once the virtual DOM is rendered it includes 12 images that are randomized each time a card is clicked. To begin the game simply click on any image. Be careful to remember what you clicked! Clicking an image twice will reset the game! Have fun!"
+	},
+	{
+		"id": 2,
+		"name": "Game On",
+		"image": "gameon.png",
+		"url": "https://gameonappv1.herokuapp.com/",
+		"summary": "For our team project #3 we created a website that allows the user to view and search video game information, sort by recent titles that are popular as well as see upcoming titles that will be released within a given parameter."
+	},
+	{
+		"id": 3,
+		"name": "Hacker News Scraper",
+		"image": "scraper.png",
+		"url": "https://scrapedanews.herokuapp.com/",
+		"summary": "Web scraper app built to utilize thehackernews.com for cool hacker news articles. Currently it also allows a user to save articles and save comments to said saved articles."
+	},
+	{
+		"id": 4,
+		"name": "Space Trivia",
+		"image": "trivia.png",
+		"url": "https://tylercedge.github.io/TriviaGame/",
+		"summary": "Space Trivia is a space themed questionaire showcasing my abilities to utilize timers with javascript. Questions are rendered with a total of 4 possible answers. This app checks for correct, incorrect, and unanswered responses and renders them either upon submitting the quiz or when the timer reaches 0."
+	},
+	{
+		"id": 5,
+		"name": "Apex Tracker App",
+		"image": "apextracker.png",
+		"url": "https://apextrackerv1.herokuapp.com/",
+		"summary": "Heroku hosted app that renders the stats of an Apex Legend player. User specifies platform and gamer id to search. Renders selected data from tracker.gg api with the help of Vue.js and Lifecycle hooks. This project also uses Express.js, Node.js and concurrently to link the front and back end. I had a lot of fun learning this one!"
+	},
+	{
+		"id": 6,
+		"name": "Gatsby Practice",
+		"image": "gatsbypractice.png",
+		"url": "https://modest-archimedes-36f35e.netlify.com/",
+		"summary": "Netlify deployed app using a contentful CMS to render blog posts. Also uses a number of plugins available from Gatsby including the gatsby-plugin-scss and a few image plugins. Learned about SEO in the process. Also learned to use GraphQL and how to update graphql to render playground instead of the default interface."
+	}
+]
