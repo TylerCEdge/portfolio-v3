@@ -7,7 +7,6 @@ module.exports = {
     description: 'Template powered portfolio for Tyler Edge',
   },
   plugins: [
-
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -21,20 +20,7 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-
-    'gatsby-plugin-offline',
     'gatsby-plugin-sass',
-
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "src",
-        path: `${__dirname}/src/`
-      }
-    },
-
-    
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
-  ]
-};
+    'gatsby-plugin-offline'
+  ],
+}
