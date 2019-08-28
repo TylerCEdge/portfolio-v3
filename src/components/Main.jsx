@@ -151,13 +151,13 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a href="https://twitter.com/tylercedge" className="icon fa-file">
+              <a href="https://docs.google.com/document/d/11_OQHxzBu_dA8fwsj9u3ArT3i8vHnOdWgEry89BZ6sE/edit?usp=sharing" className="icon fa-file">
                 <span className="label">Resume</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/TylerCEdge"
+                href="https://www.linkedin.com/in/tylercedge/"
                 className="icon fa-linkedin-square"
               >
                 <span className="label">LinkedIn</span>
@@ -165,7 +165,7 @@ class Main extends React.Component {
             </li>
             <li>
               <a
-                href="https://github.com/TylerCEdge"
+                href="https://stackoverflow.com/users/10860189/tyler-edge"
                 className="icon fa-stack-overflow"
               >
                 <span className="label">Stack Overflow</span>
