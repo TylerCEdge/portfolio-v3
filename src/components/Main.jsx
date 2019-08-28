@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Projects from '../components/Projects'
 
-import tyler from '../images/tylernew.jpg'
 import communication from '../images/communication.jpg'
 
 class Main extends React.Component {
@@ -31,7 +30,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={tyler} alt="" />
+            <img src={communication} alt="" />
           </span>
           <p>
             I have a strong passion for tech. I have played around with
