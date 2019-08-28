@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Card, Image, Heading, Text } from 'rebass'
+import { Box, Card, Image, Heading, Text, Button, Link } from 'rebass'
 
 const Test = props => (
 	<Box>
@@ -9,7 +9,7 @@ const Test = props => (
         borderRadius: 2,
         boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
       }}>
-      <Image alt={props.image.replace(".png", "")} src={require("../images/" + props.image)} href={props.url} />
+      <Image alt={props.image.replace(".png", "")} src={require("../images/" + props.image)} />
       <Box px={2}>
         <Heading as='h3'>
           {props.name}
@@ -17,8 +17,11 @@ const Test = props => (
         <Text fontSize={0}>
           {props.summary}
         </Text>
+        <br></br>
+        <Button variant='primary' mr={2}><Link variant='nav' target='blank' href={props.url}>Project</Link></Button>
       </Box>
     </Card>
+    <hr></hr>
   </Box>
 )
 
