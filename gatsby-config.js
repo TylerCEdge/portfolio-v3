@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: 'Web Portfolio',
+    title: 'Tyler Edge Web Portfolio',
     author: 'Tyler Edge',
     description: 'Template powered portfolio for Tyler Edge',
   },

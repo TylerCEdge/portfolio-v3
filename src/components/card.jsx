@@ -19,7 +19,13 @@ const Test = props => (
         <Text fontSize={0}>{props.summary}</Text>
         <br></br>
         <Button variant="primary" mr={2}>
-          <Link variant="nav" target="blank" href={props.url}>
+          <Link
+            variant="nav"
+            target="blank"
+            href={props.url}
+            className="icon fa-binoculars"
+          >
+            {' '}
             View
           </Link>
         </Button>
@@ -27,7 +33,7 @@ const Test = props => (
           <Link
             variant="nav"
             target="blank"
-            href="https://github.com/TylerCEdge"
+            href={props.github}
             className="icon fa-github"
           >
             {' '}

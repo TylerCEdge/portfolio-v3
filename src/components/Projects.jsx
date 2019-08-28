@@ -19,6 +19,7 @@ export default class Projects extends React.Component {
             image={card.image}
             name={card.name}
             url={card.url}
+            github={card.github}
             summary={card.summary}
           />
         ))}
