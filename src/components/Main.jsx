@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Box, Card, Image, Heading, Text } from 'rebass'
 
-import tylernew from '../images/tylernew.jpg'
-import tech from '../images/tech.jpg'
+import tyler from '../images/tylernew.jpg'
+import apex from '../images/apextracker.png'
 import communication from '../images/communication.jpg'
 
 class Main extends React.Component {
@@ -31,7 +32,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={tylernew} alt="" />
+            <img src={tyler} alt="" />
           </span>
           <p>
             I have a strong passion for tech. I have played around with
@@ -63,66 +64,21 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={tech} alt="" />
-          </span>
-          <ul>
-            <li>
-              <b>Application architecture</b>
-            </li>
-            <li>
-              <b>Javascript</b> - (native, ReactJS, jQuery, Vue, Gatsby, Angular
-              etc).
-            </li>
-            <li>
-              <b>CSS3</b> - (native and using technology SASS, Twitter
-              Bootstrap).
-            </li>
-            <li>
-              <b>Server Side</b> - HTML, NodeJS
-            </li>
-            <li>
-              <b>Database architecture and design</b> (MySQL, MS SQL, MongoDB,
-              GraphQL, CMS).
-            </li>
-            <li>
-              <b>Tools</b> - GIT, Postman, Parrot Sec OS, Kali Linux.
-            </li>
-            <li>
-              <b>Kali/Parrot Related Tools</b> - Airgeddon, Metasploit,
-              Armitage, Maltego, BurpSuite, SET, Beef, Nmap, WPscan, Skipfish,
-              Nikto.
-            </li>
-          </ul>
-          {close}
-        </article>
-
-        <article
-          id="skils"
-          className={`${this.props.article === 'skills' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Skills</h2>
-          <span className="image main">
-            <img src={communication} alt="" />
-          </span>
-
-          {close}
-        </article>
-
-        <article
-          id="projects"
-          className={`${this.props.article === 'projects' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Projects</h2>
-          <span className="image main">
-            <img src={communication} alt="" />
-          </span>
+          <Box width={750}>
+            <Card
+              sx={{
+                p: 1,
+                borderRadius: 2,
+                boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
+              }}
+            >
+              <Image src={apex} />
+              <Box px={2}>
+                <Heading as="h3">Apex Legends Tracker</Heading>
+                <Text fontSize={0}>You can edit this code</Text>
+              </Box>
+            </Card>
+          </Box>
 
           {close}
         </article>
@@ -211,27 +167,24 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/tylercedge"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
+              <a href="https://twitter.com/tylercedge" className="icon fa-file">
+                <span className="label">Resume</span>
               </a>
             </li>
             <li>
               <a
                 href="https://github.com/TylerCEdge"
-                className="icon fa-facebook"
+                className="icon fa-linkedin-square"
               >
-                <span className="label">Facebook</span>
+                <span className="label">LinkedIn</span>
               </a>
             </li>
             <li>
               <a
                 href="https://github.com/TylerCEdge"
-                className="icon fa-instagram"
+                className="icon fa-stack-overflow"
               >
-                <span className="label">Instagram</span>
+                <span className="label">Stack Overflow</span>
               </a>
             </li>
             <li>

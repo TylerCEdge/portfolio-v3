@@ -2,19 +2,11 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: "Tyler Edge | Web Portfolio",
-    author: "Tyler Edge",
-    description: "Template powered portfolio for Tyler Edge"
+    title: 'Web Portfolio',
+    author: 'Tyler Edge',
+    description: 'Template powered portfolio for Tyler Edge',
   },
   plugins: [
-
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: path.join(__dirname, `src`, `images`),
-      },
-    },
 
     'gatsby-plugin-react-helmet',
     {
@@ -29,9 +21,45 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-sass',
+
     'gatsby-plugin-offline',
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: path.join(__dirname, `src`, `images`),
+      },
+    },
+
+    'gatsby-plugin-sass',
+
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`
+      }
+    },
+
+    
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-  ],
-}
+
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          "gatsby-remark-relative-images",
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 750,
+              linkImagesToOriginal: false
+            }
+          }
+        ]
+      }
+    }
+  ]
+};

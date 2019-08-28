@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "portfolio-v3",
+  "description": "portfolio-v3",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Tyler Edge",
   "dependencies": {
+    "@hot-loader/react-dom": "^16.8.6",
     "gatsby": "^2.2.9",
     "gatsby-image": "^2.2.14",
     "gatsby-plugin-manifest": "^2.0.24",
@@ -11,13 +12,16 @@
     "gatsby-plugin-react-helmet": "^3.0.10",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.2.18",
+    "gatsby-remark-images": "^3.1.18",
+    "gatsby-remark-relative-images": "^0.2.3",
     "gatsby-source-filesystem": "^2.1.17",
+    "gatsby-transformer-remark": "^2.6.19",
     "gatsby-transformer-sharp": "^2.2.12",
     "node-sass": "^4.11.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "@hot-loader/react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "rebass": "^4.0.5"
   },
   "keywords": [
     "gatsby"

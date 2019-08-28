@@ -18,8 +18,6 @@ const Header = (props) => (
             <ul>
                 <li><button onClick={() => {props.onOpenArticle('intro')}}>Intro</button></li>
                 <li><button onClick={() => {props.onOpenArticle('work')}}>Work</button></li>
-                <li><button onClick={() => {props.onOpenArticle('skills')}}>Skills</button></li>
-                <li><button onClick={() => {props.onOpenArticle('projects')}}>Projects</button></li>
                 <li><button onClick={() => {props.onOpenArticle('about')}}>About</button></li>
                 <li><button onClick={() => {props.onOpenArticle('contact')}}>Contact</button></li>
             </ul>
