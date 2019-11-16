@@ -41,10 +41,10 @@
 	},
 	{
 		"id": 6,
-		"name": "Gatsby Practice",
-		"image": "gatsbypractice.png",
-		"url": "https://modest-archimedes-36f35e.netlify.com/",
-		"github": "https://github.com/TylerCEdge/gatsbypractice",
-		"summary": "Netlify deployed app using a contentful CMS to render blog posts. Also uses a number of plugins available from Gatsby including the gatsby-plugin-scss and a few image plugins. Learned about SEO in the process. Also learned to use GraphQL and how to update graphql to render playground instead of the default interface."
+		"name": "Tetris App",
+		"image": "tetrisapp.png",
+		"url": "https://reacttetrisapp.herokuapp.com/",
+		"github": "https://github.com/TylerCEdge/tetrisapp",
+		"summary": "Javascript clone of Tetris.  This app utilizes React Hooks for user, score management, etc.  Utilizes React components to build out the UI experience."
 	}
 ]
