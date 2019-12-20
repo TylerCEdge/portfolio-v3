@@ -183,7 +183,7 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <input type="submit" value="Send Message" className="special" action="mailto:tylercedge@gmail.com" />
               </li>
               <li>
                 <input type="reset" value="Reset" />
@@ -193,7 +193,7 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://docs.google.com/document/d/11_OQHxzBu_dA8fwsj9u3ArT3i8vHnOdWgEry89BZ6sE/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1Wnmdcsou2Gx0_GEbF42ifKgs0zVl-44Usn_EERnAab4/edit?usp=sharing"
                 target="blank"
                 className="icon fa-file"
               >
