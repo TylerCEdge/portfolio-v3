@@ -183,7 +183,7 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" action="mailto:tylercedge@gmail.com" />
+                <input type="submit" value="Send Message" className="special" action="mailto:tylercedge@gmail.com" target="blank" />
               </li>
               <li>
                 <input type="reset" value="Reset" />
