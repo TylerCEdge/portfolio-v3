@@ -42,7 +42,6 @@ class Main extends React.Component {
             >
               <Image src={communication} />
               <Box px={2}>
-                
                 <Text fontSize={1}>
                   <p>
                     I have a strong passion for tech. I have played around with
@@ -52,7 +51,10 @@ class Main extends React.Component {
                     now begun coding projects of my own. I chose to switch to
                     this career path for a sense of purpose rather than just
                     punching a clock. By the way, check out my{' '}
-                    <a href="https://github.com/TylerCEdge" target="blank">awesome work</a>.
+                    <a href="https://github.com/TylerCEdge" target="blank">
+                      awesome work
+                    </a>
+                    .
                   </p>
                   <p>
                     I consider what I do to be an art form that allows me to
@@ -119,46 +121,37 @@ class Main extends React.Component {
                   <p>Location: Lake Wylie, SC</p>
                   <p>
                     Hey, everyone, my name is Tyler Christopher Edge. I was born
-                    and raised in Clover, South Carolina. Go Tigers! Currently,
-                    I do not have a job in the tech field but I used to be a
-                    Tech and Mobile Sales Supervisor at Staples for 4 years. I
-                    enjoy gaming and music in my free time (R.I.P. for the next
-                    six months). I also have a custom-built desktop{' '}
+                    and raised in Clover, South Carolina. Go Tigers! I am a
+                    recent UNCC Web Development Boot Camp Graduate! I also have
+                    a custom-built desktop{' '}
                     <a
                       href="https://pcpartpicker.com/list/KqrYCb"
                       target="blank"
                     >
                       check it out
                     </a>
-                    ! I drive a 2013 VW CC R-Line (6 speed manual by the way). I
-                    also used to ride motorcycles. I have a 2013 Kawasaki Ninja
-                    300R in storage and I have been down. I took a 30-yard slide
-                    across the asphalt on a 110 degree summer day in a t-shirt.
-                    My father graduated from North Myrtle Beach High the same
-                    year as Vanna White and was her escort at prom. That side of
-                    my family has been in Myrtle beach as far back as the civil
-                    war as far as we can track. Edge stands for hill dwellers
-                    which makes sense since my father's family is mostly farmers
-                    or agriculture majors.
+                    ! My passion for technology started at a young age. I
+                    remember our Tandy brand desktop. I remember the MSDOS
+                    prompts to play Putt Putt. I remember getting fussed at for
+                    messing with settings. I remember Mario Teaches Typing (for
+                    all you 90's kids out there). I remember my BCA/IBA/C++/HTML
+                    classes in high school ( Mrs. Graves / Dr. Sutton / Mr. Wood
+                    / Mrs. Moss ). I remember my boss giving me a shot at
+                    selling tech at Staples. It escalated into being the head of
+                    the department very quickly. David Bishop took a shot on me
+                    and I never made him regret it.
                   </p>
 
                   <p>
-                    My mother's side of the family is Polish and we supposedly
-                    have family ties to royalty somewhere down the line. My
-                    grandfather was a small cargo pilot and I flew a plane at 4
-                    years old! My mother almost had a heart attack over that
-                    one! I was also in the South Carolina State Honors Choir in
-                    Elementary school and used to play trumpet and french horn.
-                    My dad's cousin has a side company that designs{' '}
-                    <a
-                      href="https://www.youtube.com/watch?v=GKJqH7-KepI"
-                      target="blank"
-                    >
-                      electronic hair-trigger equipped rifles
-                    </a>
-                    . I would love to live in Colorado and my favorite dog is a
-                    Caucasian Shepherd. Feel free to contact me if you want to
-                    know more!
+                    I am a bonifide geek and I love it. I love learning about
+                    the latest trends in tech. I love debating them. What I love
+                    the most about my passion for tech is my ability to help
+                    others. The ability to make what others view as the
+                    impossible a reality instead. "We don't make mistakes, just
+                    happy little accidents" - Bob Ross. While any coder might
+                    know it might not always be happy. Accidents are how we
+                    learn to grow and become better coders. Who knows maybe my
+                    next one will walk my into my next job opportunity.
                   </p>
                 </Text>
               </Box>
