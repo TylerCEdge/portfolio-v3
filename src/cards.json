@@ -1,50 +1,50 @@
 [
-	{
-		"id": 1,
-		"name" : "Pokemon Memory Game",
-		"image": "clickygame.png",
-		"url": "https://pokemon-memory-app.herokuapp.com/",
-		"github": "https://github.com/TylerCEdge/Pokemon-Memory-Game",
-		"summary": "Pokemon Memory Game is a Heroku hosted memory game. It utilizes React.js to render the page. Once the virtual DOM is rendered it includes 12 images that are randomized each time a card is clicked. To begin the game simply click on any image. Be careful to remember what you clicked! Clicking an image twice will reset the game! Have fun!"
-	},
-	{
-		"id": 2,
-		"name": "Game On",
-		"image": "gameon.png",
-		"url": "https://gameonappv1.herokuapp.com/",
-		"github": "https://github.com/TylerCEdge/Game-On",
-		"summary": "For our team project #3 we created a website that allows the user to view and search video game information, sort by recent titles that are popular as well as see upcoming titles that will be released within a given parameter."
-	},
-	{
-		"id": 3,
-		"name": "Hacker News Scraper",
-		"image": "scraper.png",
-		"url": "https://scrapedanews.herokuapp.com/",
-		"github": "https://github.com/TylerCEdge/Hacker-News-Scraper",
-		"summary": "Web scraper app built to utilize thehackernews.com for cool hacker news articles. Currently it also allows a user to save articles and save comments to said saved articles."
-	},
-	{
-		"id": 4,
-		"name": "Space Trivia",
-		"image": "trivia.png",
-		"url": "https://tylercedge.github.io/TriviaGame/",
-		"github": "https://github.com/TylerCEdge/Space-Trivia",
-		"summary": "Space Trivia is a space themed questionaire showcasing my abilities to utilize timers with javascript. Questions are rendered with a total of 4 possible answers. This app checks for correct, incorrect, and unanswered responses and renders them either upon submitting the quiz or when the timer reaches 0."
-	},
-	{
-		"id": 5,
-		"name": "Apex Tracker App",
-		"image": "apextracker.png",
-		"url": "https://apextrackerv1.herokuapp.com/",
-		"github": "https://github.com/TylerCEdge/ApexTracker",
-		"summary": "Heroku hosted app that renders the stats of an Apex Legend player. User specifies platform and gamer id to search. Renders selected data from tracker.gg api with the help of Vue.js and Lifecycle hooks. This project also uses Express.js, Node.js and concurrently to link the front and back end. I had a lot of fun learning this one!"
-	},
-	{
-		"id": 6,
-		"name": "Tetris App",
-		"image": "tetrisapp.png",
-		"url": "https://reacttetrisapp.herokuapp.com/",
-		"github": "https://github.com/TylerCEdge/tetrisapp",
-		"summary": "Javascript clone of Tetris.  This app utilizes React Hooks for user, score management, etc.  Utilizes React components to build out the UI experience."
-	}
+  {
+    "id": 1,
+    "name": "Pokemon Memory Game",
+    "image": "clickygame.png",
+    "url": "https://pokemon-memory-app.herokuapp.com/",
+    "github": "https://github.com/TylerCEdge/Pokemon-Memory-Game",
+    "summary": "Pokemon Memory Game is a Heroku hosted memory game. It utilizes React.js to render the page. Once the virtual DOM is rendered it includes 12 images that are randomized each time a card is clicked. To begin the game simply click on any image. Be careful to remember what you clicked! Clicking an image twice will reset the game! Have fun!"
+  },
+  {
+    "id": 2,
+    "name": "Places App",
+    "image": "placesapp.jpeg",
+    "url": "https://placesappv1.firebaseapp.com/",
+    "github": "https://github.com/TylerCEdge/places-app",
+    "summary": "This application is designed to allow a user to add places they have visited to a noSQL database utilizing MongoDB.  Users can be created and are then verified using bcrypt and a custom set of validators.  Places are also verified with validation.  Error handling is passed to a custom hook designed to streamline the troubleshooting process.  The server is hosted on Heroku while the front end is hosted on Firebase to split the payload.  Lazyload is enabled on non-essential portions of the page to further improve load times."
+  },
+  {
+    "id": 3,
+    "name": "Hacker News Scraper",
+    "image": "scraper.png",
+    "url": "https://scrapedanews.herokuapp.com/",
+    "github": "https://github.com/TylerCEdge/Hacker-News-Scraper",
+    "summary": "Web scraper app built to utilize thehackernews.com for cool hacker news articles. Currently it also allows a user to save articles and save comments to said saved articles."
+  },
+  {
+    "id": 4,
+    "name": "Space Trivia",
+    "image": "trivia.png",
+    "url": "https://tylercedge.github.io/TriviaGame/",
+    "github": "https://github.com/TylerCEdge/Space-Trivia",
+    "summary": "Space Trivia is a space themed questionaire showcasing my abilities to utilize timers with javascript. Questions are rendered with a total of 4 possible answers. This app checks for correct, incorrect, and unanswered responses and renders them either upon submitting the quiz or when the timer reaches 0."
+  },
+  {
+    "id": 5,
+    "name": "Apex Tracker App",
+    "image": "apextracker.png",
+    "url": "https://apextrackerv1.herokuapp.com/",
+    "github": "https://github.com/TylerCEdge/ApexTracker",
+    "summary": "Heroku hosted app that renders the stats of an Apex Legend player. User specifies platform and gamer id to search. Renders selected data from tracker.gg api with the help of Vue.js and Lifecycle hooks. This project also uses Express.js, Node.js and concurrently to link the front and back end. I had a lot of fun learning this one!"
+  },
+  {
+    "id": 6,
+    "name": "Tetris App",
+    "image": "tetrisapp.png",
+    "url": "https://reacttetrisapp.herokuapp.com/",
+    "github": "https://github.com/TylerCEdge/tetrisapp",
+    "summary": "Javascript clone of Tetris.  This app utilizes React Hooks for user, score management, etc.  Utilizes React components to build out the UI experience."
+  }
 ]
